@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portifólio</title>
+    <link href="css/avaliacao.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="titulo">
+        <table cellpadding="10">
+            <td><a href="index.html">Home</a></td>
+            <td><a href="primeirotrimestre.html">Primeiro Trimestre</a></td>
+            <td><a href="segundotrimestre.html">Segundo Trimestre</a></td>
+            <td><a href="terceirotrimestre.html">Terceiro Trimestre</a></td>
+            <td><a href="avaliacao.html">Avaliação</a></td>
+        </table>
+    </div>
+    <br>
+    <h2>Avalie o meu site:</h2>
+    <form>
+        <fieldset>
+            <legend>Responda com sinceridade:</legend>
+            <br>
+            <div>
+                <label for="site">Você gostou do site?</label>
+                <label>
+                    <input type="radio" name="site" value="sim" checked>Sim
+                </label>
+                <label>
+                    <input type="radio" name="site" value="nao">Não
+
+                </label>
+            </div>
+            <br> <br>
+            <div>
+                <label for="avalie">O que você diria sobre o meu site?</label>
+                <select id="avalie">
+                    <option selected disabled value="">Avalie</option>
+                    <option>Devo melhorar</option>
+                    <option>Mediano</option>
+                    <option>Bom</option>
+                    <option>Muito Bom</option>
+                </select>
+            </div>
+            <br>
+        </fieldset>
+        <br>
+
+        <div class="avaliacao">
+            <label>Caso tenha um comentário a fazer:</label>
+            <br> <br>
+            <textarea row="6" style="width: 50em" id="comentario" name="comentario"> </textarea>
+        </div>
+        <br>
+        <button type="submit">Concluído</button>
+    </form>
+    <br><br>
+    <h3>OBS: formulário apenas ilustrativo, por favor fazer os comentários no sigaa!</h3><br>
+    <center>
+        <img src="./images/gatofofo.gif">
+    </center>
+</body>
